@@ -16,8 +16,8 @@ Este projeto foi desenvolvido baseado no seguinte desafio técnico:
     • Em caso de uso do Git/Bitbucket não esqueça de criar o .gitignore.” 
 
 Com isso para o desenvolvimento da solução do desafio.
-    • A linguagem Java versão 11;
-    • A arquitetura utilizada para desenvolvimento foi baseado no MVC (Model-View-Controller);
+  * Item 1  • A linguagem Java versão 11;
+  * Item 2 • A arquitetura utilizada para desenvolvimento foi baseado no MVC (Model-View-Controller);
     • As bibliotecas utilizadas foram:
         ◦ Bibliotecas do Spring boot:
             ▪ spring-boot-configuration-processor;
