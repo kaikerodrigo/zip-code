@@ -16,24 +16,24 @@ Este projeto foi desenvolvido baseado no seguinte desafio técnico:
     • Em caso de uso do Git/Bitbucket não esqueça de criar o .gitignore.” 
 
 Com isso para o desenvolvimento da solução do desafio.
-  * Item 1  • A linguagem Java versão 11;
-  * Item 2 • A arquitetura utilizada para desenvolvimento foi baseado no MVC (Model-View-Controller);
-    • As bibliotecas utilizadas foram:
-        ◦ Bibliotecas do Spring boot:
-            ▪ spring-boot-configuration-processor;
-            ▪ spring-boot-devtools;
-            ▪ spring-boot-starter-data-jpa;
-            ▪ spring-boot-starter-security;
-            ▪ spring-boot-starter-validation;
-            ▪  spring-boot-starter-web;
-        ◦ Bibliotecas para geração de código automático e builds:
-            ▪ lombok;	
-            ▪ mapstruct;
-        ◦ Bibliotecas para configuração, utilização de banco de dados e validação:
-            ▪ h2;
-            ▪ mysql-connector-java;
-            ▪ ojdbc8;
-            ▪ postgresql;
+  * • A linguagem Java versão 11;
+  * • A arquitetura utilizada para desenvolvimento foi baseado no MVC (Model-View-Controller);
+  * • As bibliotecas utilizadas foram:
+    * ◦ Bibliotecas do Spring boot:
+        * ▪ spring-boot-configuration-processor;
+        * ▪ spring-boot-devtools;
+        * ▪ spring-boot-starter-data-jpa;
+        * ▪ spring-boot-starter-security;
+        * ▪ spring-boot-starter-validation;
+        * ▪  spring-boot-starter-web;
+    *◦ Bibliotecas para geração de código automático e builds:
+        * ▪ lombok;	
+        * ▪ mapstruct;
+    *◦ Bibliotecas para configuração, utilização de banco de dados e validação:
+         *▪ h2;
+         *▪ mysql-connector-java;
+         *▪ ojdbc8;
+         *▪ postgresql;
             ▪ spring-boot-starter-data-jpa;
             ▪ spring-boot-starter-validation;
         ◦ Segurança/autenticação:
