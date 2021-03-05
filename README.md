@@ -27,25 +27,25 @@ Com isso para o desenvolvimento da solução do desafio.
      * spring-boot-starter-validation;
      * spring-boot-starter-web;
    * Bibliotecas para geração de código automático e builds:
-        * lombok;	
-        * mapstruct;
+      * lombok;	
+      * mapstruct;
    * Bibliotecas para configuração, utilização de banco de dados e validação:
-        * h2;
-         * mysql-connector-java;
-         * ojdbc8;
-         * postgresql;
-         * spring-boot-starter-data-jpa;
-         * spring-boot-starter-validation;
+    * h2;
+    * mysql-connector-java;
+    * ojdbc8;
+    * postgresql;
+    * spring-boot-starter-data-jpa;
+    * spring-boot-starter-validation;
    * Segurança/autenticação:
-         * jwt;
+      * jwt;
    * Para documentação da api:
-         * springfox-boot-starter (swagger);
+     * springfox-boot-starter (swagger);
    * Para testes e geração de objetos mock:
-         * junit-jupiter-api;
-         * junit-jupiter-engine;
-         * junit-vintage-engine;
-         * mockito-core;
-         * mockito-inline;
-         * mockito-junit-jupiter;
+     * junit-jupiter-api;
+     * junit-jupiter-engine;
+     * junit-vintage-engine;
+     * mockito-core;
+     * mockito-inline;
+     * mockito-junit-jupiter;
 Para acessar a documentação da API do projeto depois que estiver em execução é necessário digitar o <IP>:<PORT>/swagger/index.html. Exemplo: http://localhost:8080/swagger-ui/index.html#/
 Para realizar alguns testes o projeto já vem com uma lista de código de endereçamento postal pré-cadastrado, confira os mesmo na classe chamada PopulateGenericDataBase.
