@@ -61,3 +61,5 @@ Com isso para o desenvolvimento da solução do desafio.
 Para acessar a documentação da API do projeto depois que estiver em execução é necessário digitar o &lt;IP&gt;:&lt;PORT&gt;/swagger/index.html. Exemplo: <http://localhost:8080/swagger-ui/index.html#/>
 
 Para realizar alguns testes o projeto já vem com uma lista de código de endereçamento postal pré-cadastrado, confira os mesmo na classe chamada PopulateGenericDataBase.
+
+PS: Token para utilizar em testes: ****Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYWlrZSIsIm5hbWUiOiJLYWlrZSBSLkcgRWxpYXMiLCJpYXQiOjE4MTYyMzkwMjJ9.-SDC36-zMQ4KjHBjYwIoiA2fpnNcyTwDe234Cwec1X0
