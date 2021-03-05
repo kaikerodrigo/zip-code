@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - SearchAddressTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>SearchAddressTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/br.com.luizalabs.zipcode.html">br.com.luizalabs.zipcode</a> &gt; SearchAddressTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.213s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">findById</td>
+<td class="success">0.159s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">findZipCodeByZipCodeContaining</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">persist</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateUsingDTO</td>
+<td class="success">0.023s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateUsingZipCode</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>14:57:01.065 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [br.com.luizalabs.zipcode.SearchAddressTest]
+14:57:01.065 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [br.com.luizalabs.zipcode.SearchAddressTest]
+14:57:01.066 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [br.com.luizalabs.zipcode.SearchAddressTest]
+14:57:01.067 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [br.com.luizalabs.zipcode.SearchAddressTest]
+14:57:01.080 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@78a8928e testClass = SearchAddressTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@11ffba90 testClass = SearchAddressTest, locations = '{}', classes = '{class br.com.luizalabs.zipcode.ZipCodeApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@3fcca381, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@796f0dc1, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fb2060d, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6c89448d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@64dd7143, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@113faef1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; false]], class annotated with @DirtiesContext [false] with mode [null].
+14:57:01.084 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [br.com.luizalabs.zipcode.SearchAddressTest]
+14:57:01.085 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [br.com.luizalabs.zipcode.SearchAddressTest]
+14:57:03.340 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@78a8928e testClass = SearchAddressTest, testInstance = br.com.luizalabs.zipcode.SearchAddressTest@3f0c3f68, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@11ffba90 testClass = SearchAddressTest, locations = '{}', classes = '{class br.com.luizalabs.zipcode.ZipCodeApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@3fcca381, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@796f0dc1, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3fb2060d, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6c89448d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@64dd7143, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@113faef1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; false, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false, 'org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.mocks' -&gt; org.mockito.internal.configuration.InjectingAnnotationEngine$$Lambda$365/0x0000000840306c40@693a7c4d]]].
+14:57:03.554 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.3)
+
+2021-03-05 14:57:05.580  INFO 12983 --- [    Test worker] b.c.luizalabs.zipcode.SearchAddressTest  : Starting SearchAddressTest using Java 11.0.10 on kaike with PID 12983 (started by kaike in /home/kaike/Desktop/projects/selectiveprocess/zip-code)
+2021-03-05 14:57:05.610  INFO 12983 --- [    Test worker] b.c.luizalabs.zipcode.SearchAddressTest  : No active profile set, falling back to default profiles: default
+2021-03-05 14:57:07.905  WARN 12983 --- [kground-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add &quot;com.fasterxml.jackson.module:jackson-module-kotlin&quot; to the classpath
+2021-03-05 14:57:09.178  INFO 12983 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-05 14:57:09.309  INFO 12983 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 115 ms. Found 1 JPA repository interfaces.
+2021-03-05 14:57:10.628  INFO 12983 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@385f0588' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-05 14:57:10.655  INFO 12983 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-05 14:57:11.513  INFO 12983 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-03-05 14:57:11.548  INFO 12983 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-05 14:57:11.548  INFO 12983 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-05 14:57:11.789  INFO 12983 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-05 14:57:11.790  INFO 12983 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6067 ms
+2021-03-05 14:57:12.318  INFO 12983 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-05 14:57:13.035  INFO 12983 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-05 14:57:13.138  INFO 12983 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-05 14:57:13.264  INFO 12983 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-05 14:57:13.333  INFO 12983 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-05 14:57:13.673  INFO 12983 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-05 14:57:14.921  INFO 12983 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-05 14:57:14.962  INFO 12983 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-05 14:57:15.212  WARN 12983 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-05 14:57:17.629  INFO 12983 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 00f2840b-0dab-4ca5-9c53-6d15be57bbca
+
+2021-03-05 14:57:17.872  INFO 12983 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@443822c4, org.springframework.security.web.context.SecurityContextPersistenceFilter@18e72952, org.springframework.security.web.header.HeaderWriterFilter@3256be18, org.springframework.security.web.authentication.logout.LogoutFilter@ca24590, br.com.luizalabs.zipcode.config.security.JwtRequestFilter@3f2c9458, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78507784, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69dfeeae, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@12dd49f4, org.springframework.security.web.session.SessionManagementFilter@7363ce18, org.springframework.security.web.access.ExceptionTranslationFilter@4c7222e4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6868153]
+2021-03-05 14:57:18.304  INFO 12983 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-05 14:57:19.055  INFO 12983 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 34207 (http) with context path ''
+2021-03-05 14:57:19.400  INFO 12983 --- [    Test worker] b.c.luizalabs.zipcode.SearchAddressTest  : Started SearchAddressTest in 15.832 seconds (JVM running for 20.721)
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[2021.03.05 14:57:12] (Coverage): Error during class instrumentation: oracle.jdbc.driver.OracleDriver: java.lang.RuntimeException: java.io.IOException: Class oracle/security/pki/OraclePKIProvider not found
+[2021.03.05 14:57:15] (Coverage): Error during class instrumentation: org.springframework.security.config.annotation.authentication.configurers.ldap.LdapAuthenticationProviderConfigurer: java.lang.RuntimeException: java.io.IOException: Class org/springframework/security/ldap/authentication/PasswordComparisonAuthenticator not found
+[2021.03.05 14:57:17] (Coverage): Error during class instrumentation: org.springframework.security.config.annotation.web.configurers.oauth2.client.OAuth2LoginConfigurer: java.lang.RuntimeException: java.io.IOException: Class org/springframework/security/oauth2/client/endpoint/DefaultAuthorizationCodeTokenResponseClient not found
+[2021.03.05 14:57:18] (Coverage): Error during class instrumentation: org.springframework.http.client.HttpComponentsClientHttpRequestFactory: java.lang.RuntimeException: java.io.IOException: Class org/apache/http/client/protocol/HttpClientContext not found
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.8.2</a> at Mar 5, 2021, 2:57:20 PM</p>
+</div>
+</div>
+</body>
+</html>
